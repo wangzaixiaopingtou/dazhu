@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/event/event",
+    "pages/note/note",
+    "pages/add/add",
+    "pages/artlist/artlist",
+    "pages/inds/dfddf",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/ajaxdom/ajaxdom",
+    "pages/animate/animate",
+    "pages/backuautio/backuautio",
+    "pages/list/list",
+    "pages/logs/logs"
+    
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "名称",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "top",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/ajaxdom/ajaxdom",
+        "text": "请求",
+        "iconPath": "/images/icons/weekly.png",
+        "selectedIconPath": "/images/icons/weekly-selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/icons/about.png",
+        "selectedIconPath": "/images/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "/images/icons/weekly.png",
+        "selectedIconPath": "/images/icons/weekly-selected.png"
+      },
+      {
+        "pagePath": "pages/event/event",
+        "text": "修改",
+        "iconPath": "/images/icons/weekly.png",
+        "selectedIconPath": "/images/icons/weekly-selected.png"
+      }
+    ]
+  }
+}

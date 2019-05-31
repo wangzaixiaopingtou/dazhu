@@ -1,0 +1,21 @@
+<!--pages/list/list.wxml-->
+<!--列表渲染-->
+<!--view  盒子容器-->
+<view wx:for="{{list}}">
+{{item}}
+<!--针对循环自动每一项叫item  可以通过vx：for-item="a"-->
+</view>
+<!--显示隐藏-->
+<text>
+    {{msg}}
+</text>
+<text wx:if="{{flag}}">
+显示内容{{flag}}
+{{flag?'显示true':'显示false'}}
+</text>
+<text hidden="{{flag}}">
+hidden{{flag}}
+</text>
+<text>
+{{flag?'显示true':'显示false'}}
+</text>

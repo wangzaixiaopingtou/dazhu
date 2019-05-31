@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<!-- 通过import引入模板 -->
+<include src="../index/index.wxml"/>
+<import src="../tmpl/tmpl.wxml"/>
+<view>
+<!--is对应的是你定义的模板的name  模板传值是用data直接传值-->
+<template is="list-item" data="{{...singleData}}"></template>
+</view>

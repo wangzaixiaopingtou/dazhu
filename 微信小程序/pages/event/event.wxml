@@ -1,0 +1,19 @@
+<!--pages/event/event.wxml-->
+<!--轮播图组件-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image mode="scaleToFill" src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!--小程序是单项数据流，修改数据必须通过this.setDate-->
+<view class="" >
+   <text wx:if="{{flag}}">
+    通过点击显示和隐藏
+   </text> 
+   <button bindtap="showflag">
+       我是按钮
+   </button>
+</view>
+
